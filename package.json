@@ -1,0 +1,35 @@
+{
+  "name": "pazzle",
+  "version": "1.0.0",
+  "description": "United branches to one tree",
+  "type": "module",
+  "bin": {
+    "pazzle": "pazzle-package.js"
+  },
+  "scripts": {
+    "test": "npx -n --experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stonek79/Pazzle.git"
+  },
+  "author": "Stonek79",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stonek79/Pazzle/issues"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "homepage": "https://github.com/Stonek79/Pazzle#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.0"
+  }
+}
