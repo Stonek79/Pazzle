@@ -1,7 +1,7 @@
 {
   "name": "pazzle",
-  "version": "1.0.0",
-  "description": "United branches to one tree",
+  "version": "2.0.0",
+  "description": "https://ru.hexlet.io/challenges/js_trees_puzzle",
   "type": "module",
   "bin": {
     "pazzle": "pazzle-package.js"
@@ -30,6 +30,7 @@
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
     "jest": "^26.4.0"
   }
 }
