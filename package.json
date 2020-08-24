@@ -1,10 +1,10 @@
 {
-  "name": "pazzle",
+  "name": "puzzle",
   "version": "2.0.0",
   "description": "https://ru.hexlet.io/challenges/js_trees_puzzle",
   "type": "module",
   "bin": {
-    "pazzle": "pazzle-package.js"
+    "pazzle": "puzzle-package.js"
   },
   "scripts": {
     "test": "npx -n --experimental-vm-modules jest"

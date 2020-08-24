@@ -8,7 +8,6 @@ const makeJoints = (tree, parent) => {
   }
 
   const flatChildren = _.flatten(children);
-  // console.log(flatChildren);
   const neighbors = [...flatChildren, parent]
     .filter((n) => n && !_.isArray(n));
 
@@ -30,6 +29,7 @@ const buildTreeFromLeaf = (joints, leaf) => {
   return iter(leaf, []);
 };
 export default (primeBranch, ...branches) => {
+  // eslint-disable-next-line consistent-return
   const customizer = (objValue, srcValue) => {
     if (_.isArray(objValue)) return _.uniq(objValue.concat(srcValue));
   };

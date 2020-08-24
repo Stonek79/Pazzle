@@ -1,3 +1,3 @@
-import pazzle from './src/pazzle.js';
+import puzzle from './src/puzzle.js';
 
-export default pazzle;
+export default puzzle;

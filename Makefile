@@ -1,7 +1,7 @@
 install: install-deps
 
 run:
-	bin/pazzle-package.js 10
+	bin/puzzle-package.js 10
 
 install-deps:
 	npm ci
@@ -16,6 +16,6 @@ lint:
 	npx eslint .
 
 publish:
-	npm publish
+	npm publish --dry-run
 
 .PHONY: test
